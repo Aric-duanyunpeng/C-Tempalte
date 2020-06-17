@@ -8,6 +8,7 @@ T const& func(T const &v)
 {
     return v;
 };
+//明确生成模板实例
 template int const& func(int const &v);
 
 //main
